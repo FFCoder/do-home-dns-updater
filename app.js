@@ -3,8 +3,7 @@ const axios = require('axios');
 const DNS_ADDRESS = `https://api.digitalocean.com/v2/domains/jonathonchambers.com/records/${process.env.RECORD_ID}`
 const API_KEY = process.env.DIGITALOCEAN_OAUTH_KEY;
 const RECORD_NAME = process.env.RECORD_NAME;
-// Just a variable to hold the number of mil
-const ONE_HOUR = 3600000;
+
 
 const updateDNS = async() => {
     var externalIP = await axios.get('https://api.ipify.org').then(res => res.data);
