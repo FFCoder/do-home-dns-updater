@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const DNS_ADDRESS = `https://api.digitalocean.com/v2/domains/jonathonchambers.com/records/${process.env.RECORD_ID}`
+const DNS_ADDRESS = `https://api.digitalocean.com/v2/domains/${process.env.RECORD_DOMAIN}/records/${process.env.RECORD_ID}`
 const API_KEY = process.env.DIGITALOCEAN_OAUTH_KEY;
 const RECORD_NAME = process.env.RECORD_NAME;
 
