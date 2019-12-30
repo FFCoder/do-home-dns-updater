@@ -1,0 +1,1 @@
+This is an script which will update the Digital Ocean DNS Records for my home record. 
