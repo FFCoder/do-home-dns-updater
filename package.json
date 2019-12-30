@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "This is an script which will update the Digital Ocean DNS Records for my home record.",
   "main": "index.js",
-  "scripts": {
+  "scripts": 
+  {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
